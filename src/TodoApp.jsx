@@ -8,7 +8,7 @@ const TodoApp = () => {
   const [editingId, setEditingId] = useState(null);
   const [editingTitle, setEditingTitle] = useState('');
 
-  const API_BASE = 'http://localhost:3000/api';
+  const API_BASE = 'https://task-manager-api-a5bx.onrender.com/api';
 
   const fetchTasks = async () => {
     try {
